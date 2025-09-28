@@ -36,7 +36,7 @@ main {
 	width: fit-content;
 	height: fit-content;
 	background-color: var(--Grey-800);
-	padding: 1.25rem 2rem;
+	padding: 2rem 2rem 2.25rem 2rem;
 	text-align: center;
 	border-radius: 0.8rem;
 }
@@ -46,37 +46,39 @@ main {
 
 .avatar {
 	border-radius: 50%;
-	width: 5.5rem;
-	margin-bottom: 1.25rem;
+	width: 5rem;
+	margin-bottom: 1.75rem;
 }
 
 .name {
 	font-weight: 400;
 	margin-bottom: 0.4rem;
+	font-size: 1.75rem;
 }
 
 .location {
 	color: var(--Green);
 	font-weight: 600;
-	margin-bottom: 1.25rem;
+	margin-bottom: 1.75rem;
 }
 
 .title {
 	font-weight: 400;
-	margin-bottom: 1rem;
+	margin-bottom: 1.25rem;
 }
 
 .skills-container {
 	display: flex;
 	flex-direction: column;
-	gap: 0.8rem;
+	gap: 1rem;
 }
 
 .skills-container > * {
 	font-weight: 600;
 	background-color: var(--Grey-700);
-	padding: 1rem;
+	padding: 0.75rem 1rem;
 	border-radius: 0.5rem;
+	width: min(15.652rem, 250px);
 }
 
 .skills-container > *:hover {
