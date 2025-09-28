@@ -1,0 +1,93 @@
+:root {
+	--Green: hsl(75, 94%, 57%);
+	--White: hsl(0, 0%, 100%);
+	--Grey-700: hsl(0, 0%, 20%);
+	--Grey-800: hsl(0, 0%, 12%);
+	--Grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+	font-family: "Inter", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: var(--Grey-900);
+	color: var(--White);
+	font-weight: 400;
+}
+p {
+	font-size: 0.875rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	gap: 0.5rem;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	height: fit-content;
+	background-color: var(--Grey-800);
+	padding: 1.25rem 2rem;
+	text-align: center;
+	border-radius: 0.8rem;
+}
+
+.head-container {
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 5.5rem;
+	margin-bottom: 1.25rem;
+}
+
+.name {
+	font-weight: 400;
+	margin-bottom: 0.4rem;
+}
+
+.location {
+	color: var(--Green);
+	font-weight: 600;
+	margin-bottom: 1.25rem;
+}
+
+.title {
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.skills-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
+.skills-container > * {
+	font-weight: 600;
+	background-color: var(--Grey-700);
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+.skills-container > *:hover {
+	background-color: var(--Green);
+	color: var(--Grey-900);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
